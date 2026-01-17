@@ -86,7 +86,7 @@
     padding: 10px;
 }
 .card-info img{
-    width: 300px;
+    width: 100%;
     /* margin-left: 11px; */
   
 }
@@ -142,19 +142,39 @@
     margin-bottom: 16px;
 }
 footer{
-    width: 100%;
-    background-color: navy;
+    max-width: 100%;
+    background-color: #0A0826;
     margin-top: 100px;
     padding: 50px 590px;
+}
+.footer-title{
+    color: #ffffff;
+    text-align: center;
+}
+small{
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
 footer li{
     list-style: none;
 }
 .icons{
     margin: 0 auto;
-   
+   justify-content: center;
+   align-items: center;
 
 }
 .footer-container{
     width: 260px;
+}
+.center{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.last-button{
+    border-radius: 0;
 }
